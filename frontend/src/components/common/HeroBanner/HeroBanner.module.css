@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 242px;
+    justify-content: center;
+    align-items: center;
+    background: #969696 !important;
+    border-radius: 32px;
+    cursor: pointer;
+}
+
+.logo {
+    width: 69px;
+    height: 69px;
+}
+
+.title {
+    font-family: 'Rubik', Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 700 !important;
+    font-size: 32px !important;
+    line-height: 40px;
+    color: #34324C;
+    margin-left: 28px !important;
+}

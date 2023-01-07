@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    border-radius: 25px;
+    margin-right: 64px;
+}
+
+.title {
+    font-family: 'Rubik', 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: #34324C;
+}
+
+.titleContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.esc {
+    cursor: pointer;
+}
+
+.textarea {
+    padding: 15px;
+}
+
+.actionContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin-top: 12px;
+}
+
+.buttonContainer {
+    width: 26px;
+    margin-right: 45px;
+}

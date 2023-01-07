@@ -1,0 +1,29 @@
+.container {
+    padding: 24px;
+    margin-bottom: 24px;
+    border-radius: 25px;
+    margin-right: 17px;
+}
+
+.title {
+    font-family: 'Poppins', 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #34324C;
+}
+
+.prompt {
+    font-family: 'Poppins', 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin-top: 12px;
+}
+
+.hr {
+    border: 1px solid #DEDEDE;
+}

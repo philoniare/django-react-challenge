@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #F7F7F7;
+}
+
+.body {
+    width: 80%;
+    margin-top: 96px;
+    margin-bottom: 96px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 63px;
+}
+
+
+@media only screen and (min-width: 1024px) {
+    .content {
+        flex: 4;
+    }
+    .main {
+        flex-direction: row;
+    }
+}
