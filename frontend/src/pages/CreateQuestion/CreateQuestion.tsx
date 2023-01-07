@@ -1,13 +1,12 @@
 import React, { useState } from 'react';
 import { Paper, TextField, Typography } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
-import classNames from 'classnames';
 
 import { ReactComponent as EscIcon } from 'images/esc.svg';
 import HelixButton from 'components/common/HelixButton';
+import questionApi from 'apis/questionApi';
 
 import styles from './CreateQuestion.module.css';
-import questionApi from '../../apis/questionApi';
 
 const CHARACTER_LIMIT = 100;
 
